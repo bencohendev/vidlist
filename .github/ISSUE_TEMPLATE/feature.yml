@@ -1,0 +1,22 @@
+name: Feature
+description: A new feature or enhancement
+title: "[Feature] "
+labels: ["type:feature", "tracked"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One or two sentences — what is this feature?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation (optional)
+      description: Why does this matter? What problem does it solve?
+  - type: input
+    id: spec
+    attributes:
+      label: Spec path (optional)
+      description: If this has a full design doc, link its path here.

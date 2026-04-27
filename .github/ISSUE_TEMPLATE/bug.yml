@@ -1,0 +1,19 @@
+name: Bug
+description: Something is broken or behaving incorrectly
+title: "[Bug] "
+labels: ["type:bug", "tracked"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce (optional)
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual (optional)

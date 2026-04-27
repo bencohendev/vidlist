@@ -1,0 +1,15 @@
+name: Chore
+description: Maintenance, refactor, or non-user-facing work
+title: "[Chore] "
+labels: ["type:chore", "tracked"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
