@@ -2,6 +2,7 @@ name: Feature
 description: A new feature or enhancement
 title: "[Feature] "
 labels: ["type:feature", "tracked"]
+projects: ["bencohendev/1"]
 body:
   - type: textarea
     id: summary

@@ -4,6 +4,6 @@ App to make and share lists of movies and TV shows. Next.js 15 + React 19, pnpm-
 
 ## Workflow
 
-This repo uses the work lifecycle workflow. See [`.readme/WORKFLOW.md`](../.readme/WORKFLOW.md) for conventions, skills (`/find-work`, `/work-on`, `/start-work`, `/verify-work`, `/finish-work`), and the ADR policy.
+This repo uses the work lifecycle workflow. See `.readme/WORKFLOW.md` for the flow, skills (`/find-work`, `/add-work`, `/work-on`) and the ADR policy.
 
 Lifecycle config lives at `.work/config.json`. ADRs live at `docs/decisions/`.
