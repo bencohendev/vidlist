@@ -2,6 +2,7 @@ name: Chore
 description: Maintenance, refactor, or non-user-facing work
 title: "[Chore] "
 labels: ["type:chore", "tracked"]
+projects: ["bencohendev/1"]
 body:
   - type: textarea
     id: summary

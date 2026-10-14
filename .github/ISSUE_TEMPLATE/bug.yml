@@ -2,6 +2,7 @@ name: Bug
 description: Something is broken or behaving incorrectly
 title: "[Bug] "
 labels: ["type:bug", "tracked"]
+projects: ["bencohendev/1"]
 body:
   - type: textarea
     id: summary
