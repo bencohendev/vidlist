@@ -2,6 +2,10 @@
 
 Issues on GitHub, Status on the shared **Active Work** board (also read by the dashboard). Run `/find-work` to see this repo's slice, `/add-work` to file Issues, `/work-on <#>` to take one to a PR.
 
+## Package manager
+
+The Next.js app lives in `web/`, and the repo is pnpm-only (`only-allow pnpm` preinstall hook). In a worktree, install with `cd web && pnpm install --frozen-lockfile`, not `npm ci`.
+
 ## Flow
 
 1. **Filed**: by `/add-work`, the dashboard, or GitHub's web UI. The issue templates and `gh issue create --project` put it on the board; the board sets **Planned**.
